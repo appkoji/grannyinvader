@@ -1,2 +1,0 @@
-# grannyinvader
-Granny invader portfolio
