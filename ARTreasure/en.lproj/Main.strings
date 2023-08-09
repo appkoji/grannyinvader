@@ -1,0 +1,21 @@
+
+/* Class = "UILabel"; text = "60"; ObjectID = "0Jc-Q1-SCY"; */
+"0Jc-Q1-SCY.text" = "60";
+
+/* Class = "UILabel"; text = "PRESS START"; ObjectID = "1fH-aB-qOO"; */
+"1fH-aB-qOO.text" = "PRESS START";
+
+/* Class = "UILabel"; text = "GAME CLEARED"; ObjectID = "2DZ-fP-VLc"; */
+"2DZ-fP-VLc.text" = "GAME CLEARED";
+
+/* Class = "UILabel"; text = "近くの時空メカ"; ObjectID = "AFV-cj-dGA"; */
+"AFV-cj-dGA.text" = "近くの時空メカ";
+
+/* Class = "UILabel"; text = "Joined!"; ObjectID = "ZPR-jV-cIB"; */
+"ZPR-jV-cIB.text" = "Joined!";
+
+/* Class = "UILabel"; text = "Koji Murata"; ObjectID = "j30-on-zK1"; */
+"j30-on-zK1.text" = "Koji Murata";
+
+/* Class = "UILabel"; text = "オババをターゲットして、\nレーザーを発射してください！"; ObjectID = "kJ1-7f-f7A"; */
+"kJ1-7f-f7A.text" = "オババをターゲットして、\nレーザーを発射してください！";
