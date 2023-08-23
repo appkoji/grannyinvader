@@ -12,6 +12,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface PauseMenu : UIViewController
 
+@property (weak, nonatomic) id parent;
+
 @end
 
 NS_ASSUME_NONNULL_END

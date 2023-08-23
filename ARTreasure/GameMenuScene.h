@@ -7,10 +7,22 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <SceneKit/SceneKit.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface GameMenuScene : UIViewController
+
+typedef void(^completion)(BOOL finished);
+@property NSInteger currentStage;
+@property (strong, nonatomic) IBOutlet SCNView *sceneView;
+@property (weak, nonatomic) SCNNode *sky;
+@property (weak, nonatomic) id parent;
+@property (weak, nonatomic) SCNNode *stageViewerCam;
+
+- (IBAction)startPlay:(id)sender;
+- (void)panTo:(CGFloat)xPos;
+- (void)resetPanPosition;
 
 @end
 

@@ -7,11 +7,33 @@
 //
 
 #import <UIKit/UIKit.h>
-
-NS_ASSUME_NONNULL_BEGIN
+#import <AVFoundation/AVFoundation.h>
+#import <SpriteKit/SpriteKit.h>
+#import <ARKit/ARKit.h>
 
 @interface MainParent : UIViewController
 
-@end
+@property (strong, nonatomic) NSDictionary *dat;
 
-NS_ASSUME_NONNULL_END
+@property (strong, nonatomic) AVAudioPlayer *introBgm;
+@property (strong, nonatomic) AVAudioPlayer *loopBgm;
+
+@property NSString *currentOST;
+
+//current ARWorld - use as a reference to have seemless stage transition
+@property (strong, nonatomic) ARWorldMap *userWorldMap;
+@property (strong, nonatomic) ARAnchor *userAnchor;
+@property (strong, nonatomic) NSMutableArray <AVAudioPlayer *>*sounds;
+
+- (void)mpFuncDidStartGame;
+- (void)mpFuncUserDidSelectStage:(NSString *)selectedStage;
+- (void)mpFuncBackToMenu:(BOOL)increaseStage;
+
+- (void)playSfx:(NSString *)name;
+- (void)pauseAudio:(BOOL)paused;
+- (void)playAudio:(NSString *)bgmId;
+- (void)playSingleAudio:(NSString *)bgmId;
+- (void)fadeAudio:(NSString *)bgmId fadeDuration:(float)duration;
+- (void)restartStage;
+
+@end

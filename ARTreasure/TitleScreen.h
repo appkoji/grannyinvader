@@ -7,10 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <SceneKit/SceneKit.h>
+#import <SpriteKit/SpriteKit.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface TitleScreen : UIViewController
+
+@property (weak, nonatomic) id parent;
+@property (strong, nonatomic) IBOutlet SCNView *sceneView;
+@property (nonatomic, strong) SKScene *spriteScene;
+
+- (void)displayTitleScreen;
 
 @end
 

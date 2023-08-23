@@ -7,10 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <StoreKit/StoreKit.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface PostGameOptions : UIViewController
+
+@property (weak, nonatomic) id parent;
+@property BOOL isLastBoss;
 
 @end
 

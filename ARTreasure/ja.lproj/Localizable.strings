@@ -6,10 +6,11 @@
   Copyright © 2018 KojiGames. All rights reserved.
 */
 
-"moveDeviceSlow" = "Please move your device slowly"; //ゆっくり動かしてください...
-"lowLight" = "This place is either too bright or too dark"; //この場所は少し明るすぎるか、暗すぎます.
-"moveLR" = "Move your device left and right";//場所を読み込んでいます... デバイスを左右に動かしてください.
-"startAR" = "Tap anywhere to place the world..."; //タップしてオブジェを配置しましょう
+"moveDeviceSlow" = "ゆっくり動かしてください..."; //
+"lowLight" = "この場所は少し明るすぎるか、暗すぎます."; //
+"moveLR" = "場所を読み込んでいます... デバイスを左右に動かしてください.";//
+"startAR" = "画面をタップしてオブジェを配置しましょう"; //
+"noCheating" = "オブジェから離れてください！"; //
 
 
 // for dialog lines event0

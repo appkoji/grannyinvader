@@ -9,7 +9,7 @@
 "2DZ-fP-VLc.text" = "GAME CLEARED";
 
 /* Class = "UILabel"; text = "近くの時空メカ"; ObjectID = "AFV-cj-dGA"; */
-"AFV-cj-dGA.text" = "近くの時空メカ";
+"AFV-cj-dGA.text" = "Nearby Game";
 
 /* Class = "UILabel"; text = "Joined!"; ObjectID = "ZPR-jV-cIB"; */
 "ZPR-jV-cIB.text" = "Joined!";
@@ -18,4 +18,4 @@
 "j30-on-zK1.text" = "Koji Murata";
 
 /* Class = "UILabel"; text = "オババをターゲットして、\nレーザーを発射してください！"; ObjectID = "kJ1-7f-f7A"; */
-"kJ1-7f-f7A.text" = "オババをターゲットして、\nレーザーを発射してください！";
+"kJ1-7f-f7A.text" = "Target the Granny\nand start shooting laser!";

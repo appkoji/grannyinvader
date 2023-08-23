@@ -6,13 +6,13 @@
 "1fH-aB-qOO.text" = "PRESS START";
 
 /* Class = "UILabel"; text = "GAME CLEARED"; ObjectID = "2DZ-fP-VLc"; */
-"2DZ-fP-VLc.text" = "GAME CLEARED";
+"2DZ-fP-VLc.text" = "ゲームクリアー";
 
 /* Class = "UILabel"; text = "近くの時空メカ"; ObjectID = "AFV-cj-dGA"; */
 "AFV-cj-dGA.text" = "近くの時空メカ";
 
 /* Class = "UILabel"; text = "Joined!"; ObjectID = "ZPR-jV-cIB"; */
-"ZPR-jV-cIB.text" = "Joined!";
+"ZPR-jV-cIB.text" = "参加しました";
 
 /* Class = "UILabel"; text = "Koji Murata"; ObjectID = "j30-on-zK1"; */
 "j30-on-zK1.text" = "Koji Murata";

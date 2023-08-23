@@ -5,3 +5,19 @@
   Created by Koji Murata on 18/08/2018.
   Copyright © 2018 KojiGames. All rights reserved.
 */
+
+"moveDeviceSlow" = "Please move your device slowly"; //ゆっくり動かしてください...
+"lowLight" = "This place is either too bright or too dark"; //この場所は少し明るすぎるか、暗すぎます.
+"moveLR" = "Move your device left and right";//場所を読み込んでいます... デバイスを左右に動かしてください.
+"startAR" = "Find a surface, and Tap to place object"; //タップしてオブジェを配置しましょう
+"noCheating" = "Move away from the object"; //タップしてオブジェを配置しましょう
+
+
+// for dialog lines event0
+"0" = "Once upon a time...";
+"1" = "There was one Granny tried to travel through time";
+"2" = "hoping to extend her life...";
+"3" = "she wanted another chance";
+"4" = "but one day";
+"5" = "she disappeared";
+"6" = "leaving no trace...";

@@ -7,8 +7,15 @@
 //
 
 #import "PauseMenu.h"
+#import "ViewController.h"
 
 @interface PauseMenu ()
+
+@property (strong, nonatomic) IBOutlet UIButton *resumeBtn;
+@property (strong, nonatomic) IBOutlet UIButton *homeBtn;
+@property (strong, nonatomic) IBOutlet UIButton *repeatBtn;
+
+- (IBAction)pauseMenuActions:(id)sender;
 
 @end
 
@@ -28,5 +35,38 @@
     // Pass the selected object to the new view controller.
 }
 */
+
+- (IBAction)pauseMenuActions:(id)sender {
+    //
+    [self dismissViewControllerAnimated:YES completion:^{
+        //
+        if (sender == self.resumeBtn) {
+            //
+            [[self.parent sceneView] setPlaying:YES];
+            [[self.parent sceneView].overlaySKScene setPaused:NO];
+            [[self.parent sceneView].scene setPaused:NO];
+            [[self.parent sceneView].session runWithConfiguration:[self.parent arCongifuration]];
+            [self.parent pauseSceneReturnAction:2];
+        } else if (sender == self.repeatBtn) {
+            // restart
+            [self.parent pauseSceneReturnAction:1];
+        }  else {
+            // exit
+            [self.parent pauseSceneReturnAction:0];
+        }
+        //
+    }];
+    
+    
+}
+
+
+- (BOOL)prefersHomeIndicatorAutoHidden {
+    return YES;
+}
+
+- (BOOL)prefersStatusBarHidden {
+    return YES;
+}
 
 @end
